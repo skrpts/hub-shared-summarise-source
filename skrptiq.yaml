@@ -1,9 +1,9 @@
 # --- Identity ---
-id: "3a950d9e-f598-4041-89ed-528b69f0bfd2"
+id: "e21eac70-ca54-48b3-a20e-71dddfb026c8"
 name: "summarise-source"
 display_name: "Summarise Source"
 description: "Produces a structured summary of an academic paper"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
