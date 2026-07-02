@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.0.3
+GH#749 — make the prompt position-safe (§4.3.1). Replace the hardcoded positional ref `{{steps.Literature Search.output}}` (a dangling reference for any consumer without a "Literature Search" step — flagged `execution_step_ref_unresolved` by the canonical scan) with `{{step.context.source_text}}`. Consumers now supply the source via a `bindings: source_text` (step-sourced) — Phase 1 wires literature-review-pipeline + systematic-review-pipeline; input-sourced consumers wait on the `from_input` engine binding (#750).
+
 ## v1.0.2
 GH#657 Framing B — republish wave. Bundle now ships `dependencies: []` in its signed manifest (injected by `publish-skrpt.mjs` for `--shared` publishes), so the App's dep-referenced install pipeline (post-PR #47) accepts it on standalone update via Hub Update-all. No content changes.
 
