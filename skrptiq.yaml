@@ -1,9 +1,9 @@
 # --- Identity ---
 id: "e21eac70-ca54-48b3-a20e-71dddfb026c8"
 name: "summarise-source"
-display_name: "Summarise Source"
+display_name: "Summarize Source"
 description: "Produces a structured summary of an academic paper"
-version: "1.0.3"
+version: "1.0.4"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -28,7 +28,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-02T20:31:15.316Z"
+  scanned_at: "2026-07-16T14:48:34.237Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"

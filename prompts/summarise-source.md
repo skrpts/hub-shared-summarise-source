@@ -1,7 +1,7 @@
 ---
 type: prompt
 id: summarise-source
-title: Summarise Source
+title: Summarize Source
 description: "Produces a structured summary of an academic paper"
 tags: [Production, Academic, Research]
 inputs:
@@ -18,7 +18,7 @@ metadata:
 
 ## Purpose
 
-Drives the source summarisation skill by extracting key information from academic papers in a consistent format.
+Drives the source summarization skill by extracting key information from academic papers in a consistent format.
 
 ## Prompt
 
